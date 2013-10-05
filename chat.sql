@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS chatitems;
+CREATE TABLE chatitems (
+	id BIGINT NOT NULL PRIMARY KEY auto_increment,
+	added TIMESTAMP NOT NULL,
+	user VARCHAR(62) NOT NULL,
+	user_d VARCHAR(62) NOT NULL,
+	message VARCHAR(255) NOT NULL,
+	);
